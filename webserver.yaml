@@ -19,7 +19,7 @@
     - name: Customizing Home page
       copy:
         dest: "{{ httpfile }}"
-        content: "<h1>This website has been created using CI CD</h1>"
+        content: "<h1>This website has been created using CI CD using Polling feature</h1>"
       ignore_errors: true
 
     - name: Starting Apache services

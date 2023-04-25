@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: thinknyxdemo
+  name: thinknyxdemo
+  namespace: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: thinknyxdemo
+  template:
+    metadata:
+      labels:
+        app: thinknyxdemo
+    spec:
+      containers:
+      - image: yogeshraheja/devopsinaction:v1
+        name: devopsinaction

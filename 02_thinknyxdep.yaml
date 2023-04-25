@@ -16,5 +16,5 @@ spec:
         app: thinknyxdemo
     spec:
       containers:
-      - image: yogeshraheja/devopsinaction:v2
+      - image: yogeshraheja/devopsinaction:v1
         name: devopsinaction

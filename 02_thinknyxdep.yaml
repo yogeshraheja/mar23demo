@@ -4,7 +4,7 @@ metadata:
   labels:
     app: thinknyxdemo
   name: thinknyxdemo
-  namespace: test
+  namespace: testns
 spec:
   replicas: 2
   selector:

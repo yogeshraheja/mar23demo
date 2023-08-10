@@ -4,7 +4,7 @@ metadata:
   labels:
     app: thinknyxdemo
   name: thinknyxdemosvc
-  namespace: test
+  namespace: testns
 spec:
   ports:
   - name: testsvc

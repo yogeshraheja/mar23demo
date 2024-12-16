@@ -8,7 +8,7 @@ metadata:
 spec:
   ports:
   - name: testsvc
-#    nodePort: 30010
+    nodePort: 30010
     port: 80
     protocol: TCP
     targetPort: 80
